@@ -1056,13 +1056,13 @@ footer {
   }
 
   #section1 h1 {
-    font-size: 50px;
+    font-size: 65px;
     width: 100%;
   }
 
   .paragraph {
-    width: 100%;
-    font-size: 16px;
+    width: 120%;
+    font-size: 18px;
   }
 
   .top-action {
@@ -1078,7 +1078,7 @@ footer {
   }
 
   #section2 p {
-    font-size: 16px;
+    font-size: 17px;
     padding-bottom: 30px;
   }
 
@@ -1088,7 +1088,7 @@ footer {
   }
 
   #section3 {
-    min-height: auto;
+    height: auto;
     margin-top: 200px;
     padding-left: 20px;
     padding-right: 20px;
@@ -1144,6 +1144,7 @@ footer {
 
   #section6 {
     height: auto;
+    margin-top: 150px;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -1162,6 +1163,7 @@ footer {
   }
 
   #section7 {
+    margin-top: 160px;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -1198,6 +1200,7 @@ footer {
   }
 
   #section9 {
+    margin-top: 160px;
     height: auto;
     padding-left: 20px;
     padding-right: 20px;
@@ -1226,10 +1229,12 @@ footer {
   }
 
   #section10 {
+    margin-top: 150px;
     height: auto;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 50px;
+    width: 100%;
   }
 
   #section10 h1 {
@@ -1237,6 +1242,7 @@ footer {
   }
 
   #section10-columns {
+    width: 130%;
     flex-direction: column;
     gap: 50px;
   }
@@ -1314,7 +1320,7 @@ footer {
   }
 
   footer {
-    height: auto;
+    height: 250vh;
     padding-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
