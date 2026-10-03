@@ -1070,6 +1070,7 @@ footer {
   }
 
   #section2 {
+    height: auto;
     padding-left: 20px;
     width: 100%;
     padding-right: 20px;
@@ -1087,6 +1088,7 @@ footer {
   }
 
   #section3 {
+    min-height: auto;
     margin-top: 200px;
     padding-left: 20px;
     padding-right: 20px;
@@ -1111,6 +1113,7 @@ footer {
   }
 
   #section4 {
+    height: auto;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -1140,6 +1143,7 @@ footer {
   }
 
   #section6 {
+    height: auto;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -1194,6 +1198,7 @@ footer {
   }
 
   #section9 {
+    height: auto;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -1296,6 +1301,10 @@ footer {
     font-size: 16px;
   }
 
+  #section14 {
+    height: auto;
+  }
+
   #section14 h1 {
     font-size: 45px;
   }
@@ -1305,7 +1314,7 @@ footer {
   }
 
   footer {
-    height: 380vh;
+    height: auto;
     padding-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
