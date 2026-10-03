@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
+    <link rel="stylesheet" href="resend.css">
+    <title>Resend - Email for developers</title>
+</head>
+<body>
+
+    <nav>
+        <a href="./index.html"><img src="./images/resendlogo.png" alt="" width="90px" style="filter: invert(1);"></a>
+
+        <ul class="nav-list">
+            <li class="dropdown1">
+                <a href="">
+                    Features
+                    <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <div class="dropdown-content1">
+                    <div class="dcr1">
+                        <a href="">Email API</a>
+                        <a href="">SMTP</a>
+                        <a href="">Inbound</a>
+                        <a href="">Audience</a>
+                        <a href="">Broadcasts</a>
+                    </div>
+                    <div class="dcr2">
+                        <a href="">Automation</a>
+                        <a href="">Templates</a>
+                        <a href="">Webhooks</a>
+                        <a href="">CLIs</a>
+                        <a href="">Dedicated IPs</a>
+                    </div>
+                    <a href="" class="dcr3">Transactional emails</a>
+                    <a href="" class="dcr4">Marketing emails</a>
+                </div>
+            </li>
+
+            <li class="dropdown2">
+                <a href="">
+                    Company
+                    <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <div class="dropdown-content2">
+                    <div class="dcr5">
+                        <a href="">About</a>
+                        <a href="">Blog</a>
+                        <a href="">Careers</a>
+                        <a href="">Customers</a>
+                        <a href="">Humans</a>
+                    </div>
+                    <div class="dcr6">
+                        <div class="dcr6-content1">
+                            <img src="" alt="">
+                            <div class="dcr6-text1">
+                                <h1>Handbook</h1>
+                                <p>How it works</p>
+                            </div>
+                        </div>
+                        <div class="dcr6-content2">
+                            <img src="" alt="">
+                            <div class="dcr6-text2">
+                                <h1>Philosophy</h1>
+                                <p>What we value</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="dropdown3">
+                <a href="">
+                    Enterprise
+                    <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <div class="dropdown-content3">
+                    <div class="dcr7">
+                        <a href="">Talk to Sales</a>
+                        <a href="">Customers</a>
+                        <a href="">Security</a>
+                        <a href="">SOC 2</a>
+                        <a href="">GDPR</a>
+                    </div>
+                    <div class="dcr8">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </li>
+
+            <li class="dropdown4">
+                <a href="">
+                    Help
+                    <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <div class="dropdown-content4">
+                    <div class="dcr9">
+                        <a href="">Support</a>
+                        <a href="">Status</a>
+                        <a href="">Migrate</a>
+                    </div>
+                    <div class="dcr10">
+                        <a href="">Knowledge Base</a>
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </li>
+
+            <li class="dropdown5">
+                <a href="">
+                    Docs
+                    <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <div class="dropdown-content5">
+                    <div class="dcr11">
+                        <a href="">Getting Started</a>
+                        <a href="">API Reference</a>
+                        <a href="">Integration</a>
+                        <a href="">Changelog</a>
+                        <a href="">SDKS</a>
+                    </div>
+
+                        <div class="dcr12-column1">
+                            <i class="fa-brands fa-node-js"></i>
+                            <i class="fa-brands fa-python"></i>
+                            <i class="ri-supabase-fill"></i>
+                            <i class="fa-solid fa-droplet"></i>
+                        </div>
+                        <div class="dcr12-column2">
+                            <i class="ri-nextjs-line"></i>
+                            <i class="fa-regular fa-gem"></i>
+                            <i class="ri-contract-up-down-line"></i>
+                            <i class="fa-brands fa-rust"></i>
+                        </div>
+                        <div class="dcr12-column3">
+                            <i class="fa-solid fa-mountain"></i>
+                            <i class="fa-brands fa-php"></i>
+                            <i class="fa-brands fa-golang"></i>
+                                 λ
+                        </div>
+                        <div class="dcr12-column4">
+                            <i class="fa-solid fa-r"></i>
+                            <i class="fa-brands fa-laravel"></i>
+                            <i class="fa-brands fa-java"></i>
+                            <i class="ri-flashlight-line"></i>
+                        </div>
+                    </div>
+            </li>
+
+            <li class="dropdown6">
+                <a href="">AI <i class="fa-solid fa-angle-down"></i></a>
+
+                <div class="dropdown-content6">
+                    <div class="dcr13">
+                        <a href="">Cursor</a>
+                        <a href="">Claude</a>
+                        <a href="">Claude Code</a>
+                        <a href="">Codex</a>
+                        <a href="">Github Copilot</a>
+                    </div>
+
+                    <div class="dcr14">
+                        <a href="">Gemini</a>
+                        <a href="">v0</a>
+                        <a href="">Bolt</a>
+                        <a href="">Loveable</a>
+                        <a href="">Replit</a>
+                    </div>
+
+                    <div class="dcr15"><a href="">Agents</a></div>
+                    <div class="dcr16">
+                        <div class="dcr16a">
+                            <a href="">MCP</a>
+                        </div>
+                        <div class="dcr16b">
+                            <a href="">Skills</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <a href="">
+                    Pricing
+                </a>
+            </li>
+        </ul>
+
+        <div class="actions">
+            <a href="">Log in</a>
+            <a href="" class="btn1">Get started</a>
+        </div>
+    </nav>
+
+    <main>
+
+        <section id="section1">
+            <div class="section1-column">
+                <div class="section1-colume1a">
+                    <p class="top-action">
+                        <a href="">
+                            Join us at Resend Forward
+                            <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                    </p>
+                    <h1>Email for developers</h1>
+                    <p class="paragraph">
+                        The best way to reach humans instead of spam folders.
+                        Deliver transactional and marketing emails at scale.
+                    </p>
+                    <ul class="bottom-action">
+                        <li class="btn2">
+                            <a href="">Get started</a>
+                        </li>
+                        <li>
+                            <a href="">Documentation</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="section1-column2a">
+                    <video width="300" autoplay loop muted class="background-video">
+                        <source src="./video/cube.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-overlay"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section2">
+            <p>
+                Companies of all sizes trust Resend to deliver
+                their most important emails.
+            </p>
+
+            <div class="section2-image-flex1">
+                <img src="./images/mf1.png" alt="image1" width="180px">
+                <img src="./images/mf2.png" alt="image2" width="80px">
+                <img src="./images/mf3.png" alt="image3" width="140px">
+                <img src="./images/mf4.png" alt="image4" width="120px">
+                <img src="./images/mf5.png" alt="image5" width="140px">
+                <img src="./images/mf6.png" alt="image6" width="140px">
+            </div>
+
+            <div class="section2-image-flex2">
+                <img src="./images/mf7.png" alt="image7" width="160px" style="filter: invert(1)">
+                <img src="./images/mf8.png" alt="image8" width="160px">
+                <img src="./images/mf9.png" alt="image9" width="160px">
+                <img src="./images/mf10.png" alt="image10" width="90px">
+                <img src="./images/mf11.png" alt="image11" width="120px">
+                <img src="./images/mf12.png" alt="image12" width="100px">
+            </div>
+
+            <span>
+                Explore Enterprise
+                <i class="fa-solid fa-angle-right"></i>
+            </span>
+        </section>
+
+        <section id="section3">
+            <video width="190" autoplay loop>
+                <source src="./video/3d-integrate-morning.mp4" type="video/mp4">
+            </video>
+
+            <h1>
+                Integrate
+                <span style="color: #FEA035;">this afternoon</span>
+            </h1>
+
+            <p>
+                A simple, elegant interface so you can start sending emails in minutes.
+                It fits
+                <br>
+                right into your code with SDKs for favourite programming languages.
+            </p>
+
+            <div class="section3-textimg-flex">
+                <div class="sec3-textwrap">
+                    <i class="fa-brands fa-node-js"></i>
+                    <p>Node.js</p>
+                </div>
+                <div class="sec3-textwrap">
+                    <i class="fa-solid fa-bolt-lightning"></i>
+                    <p>Serverless</p>
+                </div>
+                <div class="sec3-textwrap">
+                    <i class="fa-regular fa-gem"></i>
+                    <p>Ruby</p>
+                </div>
+                <div class="sec3-textwrap">
+                    <i class="fa-brands fa-python"></i>
+                    <p>Python</p>
+                </div>
+                <div class="sec3-textwrap">
+                    <i class="fa-brands fa-php"></i>
+                    <p>PHP</p>
+                </div>
+                <div class="sec3-textwrap">
+                    <i class="fa-solid fa-terminal"></i>
+                    <p>CLI</p>
+                </div>
+                <div class="sec3-textwrap">
+                    <i class="fa-brands fa-golang"></i>
+                    <p>Go</p>
+                </div>
+                <div class="sec3-textwrap">
+                    <i class="fa-brands fa-rust"></i>
+                    <p>Rust</p>
+                </div>
+                <div class="sec3-textwrap">
+                    <i class="fa-brands fa-java"></i>
+                    <p>Java</p>
+                </div>
+                <div class="sec3-textwrap">
+                    <i class="fa-solid fa-droplet"></i>
+                    <p>Elixir</p>
+                </div>
+                <div class="sec3-textwrap">
+                    <span class="net">.NET</span>
+                    <p>.NET</p>
+                </div>
+                <div class="sec3-textwrap">
+                    <i class="ri-braces-line"></i>
+                    <p>REST</p>
+                </div>
+                <div class="sec3-textwrap">
+                    <span class="smpt">SMTP</span>
+                    <p>SMTP</p>
+                </div>
+            </div>
+
+            <img src="./images/sec3img.png" alt="" width="1100">
+        </section>
+
+        <section id="section4">
+            <h1>
+                First-class
+                <br>
+                developer experience
+            </h1>
+
+            <p>
+                We are a team of engineers who love building tools for other engineers.
+                <br>
+                Our goal is to create the email platform we've always wished we had,
+                one that just works.
+            </p>
+
+            <div class="section4-image"><img src="./images/sec4img.png" alt="" width="1000"></div>
+        </section>
+
+        <section id="section5">
+            <div class="section5-side-text1">
+                <i class="fa-solid fa-flask"></i>
+                <h1>Test Mode</h1>
+                <p>
+                    Simulate events and experiment with our API without the risk
+                    of accidentally sending real emails to real people.
+                </p>
+                <span>Learn more</span>
+            </div>
+
+            <div class="section5-side-text2">
+                <i class="ri-webhook-line"></i>
+                <h1>Modular Webhooks</h1>
+                <p>
+                    Receive real-time notifications directly to your server.
+                    Every time an email is delivered, opened, bounces, or a link is clicked.
+                </p>
+                <span>Learn more</span>
+            </div>
+        </section>
+
+        <section id="section6">
+            <video width="160" autoplay loop>
+                <source src="./video/3d-broadcast.mp4">
+            </video>
+
+            <h1>Write using a delightful editor</h1>
+
+            <p>
+                A modern editor that makes it easy for anyone to write, format and send emails.
+                <br>
+                Visually build your emails and change the design by adding custom styles.
+            </p>
+
+            <img src="./images/sec6img.png" alt="" width="1006">
+        </section>
+
+        <section id="section7">
+            <h1>Go beyond editing</h1>
+
+            <p>
+                Group and control your contacts in a simple and intuitive way.
+                <br>
+                Straightforward analytics and reporting tools that will help you send better emails.
+            </p>
+
+            <div class="section7-image">
+                <img src="./images/sec7img1.png" alt="" width=500">
+                <img src="./images/sec7img2.png" alt="" width=500">
+            </div>
+        </section>
+
+        <section id="section8">
+            <div class="section8-side-text1">
+                <i class="fa-thin fa-users-line"></i>
+                <h1>Contact management</h1>
+                <p>
+                    Import your list in minutes, regardless of the
+                    <br>
+                    size of your audience. Get full visibility of
+                    <br>
+                    each contact and their personal attributes.
+                </p>
+                <span>Learn more</span>
+            </div>
+
+            <div class="section8-side-text2">
+                <i class="fa-solid fa-chart-line"></i>
+                <h1>Broadcast analytics</h1>
+                <p>
+                    Unlock powerful insights and understand
+                    <br>
+                    exactly how your audience is interacting with
+                    <br>
+                    your broadcast email.
+                </p>
+                <span>Learn more</span>
+            </div>
+        </section>
+
+        <section id="section9">
+            <video width="170" autoplay loop>
+                <source src="./video/3d-react.mp4">
+            </video>
+
+            <h1>Develop emails using React</h1>
+
+            <p>
+                Create beautiful templates without having to deal with table layouts and HTML.
+                <br>
+                Powered by react-email, our open source component library.
+            </p>
+
+            <ul class="button-action2">
+                <li class="btn3">
+                    <a href="">
+                        Get  started
+                        <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Check the docs
+                        <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                </li>
+            </ul> 
+            <img src="./images/sec9img.png" alt="" width="1000">
+        </section>
+
+        <section id="section10">
+            <h1>
+                Reach humans, not
+                <br>
+                spam folders
+            </h1>
+
+            <div id="section10-columns">
+                <div class="section10-column1">
+                    <div class="column1a">
+                        <i class="fa-solid fa-ban"></i>
+                        <h2>Proactive blocklist tracking</h2>
+                        <p>
+                            Be first to know if your domain is added to a
+                            <strong>DNSBL</strong>
+                            such as those offered by
+                            <strong>Spamhaus</strong>
+                            with removal requests generated by Resend.
+                        </p>
+                    </div>
+
+                    <div class="column1b">
+                        <i class="ri-user-location-line"></i>
+                        <h2>Managed dedicated IP</h2>
+                        <p>
+                            Get a fully managed dedicated IP that automatically warms up
+                            and autoscales based on your sending volume, no waiting period.
+                        </p>
+                    </div>
+
+                    <div class="column1c">
+                        <i class="fa-solid fa-list-check"></i>
+                        <h2>Verify DNS Record</h2>
+                        <p>
+                            Protect your reputation by verifying your identity as a legitimate sender.
+                            Secure your email communication using
+                            <strong>DKIM</strong>
+                            and
+                            <strong>SPF</strong>.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section10-column2">
+                    <div class="column2a">
+                        <i class="ri-inbox-2-line"></i>
+                        <h2>Faster time to Inbox</h2>
+                        <p>
+                            Send emails from the region closer to your users.
+                            Reduce delivery latency with North American,
+                            South American, European, and Asian regions.
+                        </p>
+                    </div>
+
+                    <div class="column2b">
+                        <i class="ri-hand"></i>
+                        <h2>Dynamic suppression list</h2>
+                        <p>
+                            Prevent repeated sending to recipients who no longer want your email
+                            and comply with standards like the
+                            <strong>CAN-SPAM</strong>
+                            Act and others.
+                        </p>
+                    </div>
+
+                    <div class="column2c">
+                        <i class="ri-shield-line"></i>
+                        <h2>Battle-tested Infrastructure</h2>
+                        <p>
+                            Rely on a platform of reputable IPs used by trustworthy senders
+                            with distributed workloads across different IP pools.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section10-column3">
+                    <div class="column3a">
+                        <i class="ri-award-line"></i>
+                        <h2>Build confidence with BIMI</h2>
+                        <p>
+                            Showcase your company branding with
+                            <strong>BIMI</strong>.
+                            Receive guidance to obtain
+                            <strong>VMC</strong>
+                            - the email equivalent of a checkmark on social media.
+                        </p>
+                    </div>
+
+                    <div class="column3b">
+                        <i class="fa-light fa-globe"></i>
+                        <h2>IP and domain monitoring</h2>
+                        <p>
+                            Monitor your DNS configuration for any errors or regressions.
+                            Be notified of any changes that could hinder your deliverability.
+                        </p>
+                    </div>
+
+                    <div class="column3c">
+                        <i class="ri-spy-line"></i>
+                        <h2>Prevent spoofing with DMARC</h2>
+                        <p>
+                            Avoid impersonation by creating
+                            <strong>DMARC</strong>
+                            policies and instructing inbox providers on how to treat unauthenticated email.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section11">
+            <img src="./images/sec11img.png" alt="" width="380" class="image">
+
+            <h1>
+                Resend is transforming email for developers.
+                <br>
+                Simple interface, easy integrations, and handy
+                <br>
+                templates. What else could we ask for?
+            </h1>
+
+            <div class="section11-textimage">
+                <img src="./images/sec11photo.png" alt="" width="40px" class="sec11photo">
+                <div class="text1-2">
+                    <h2>Guillermo Rauch</h2>
+                    <p>CEO at Vercel</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="section12">
+            <video width="170" autoplay loop muted>
+                <source src="./video/3d-broadcast.mp4">
+            </video>
+
+            <h1>Everything in your control</h1>
+
+            <p>
+                All the features you need to manage your email sending,
+                troubleshoot with
+                <br>
+                detailed logs, and protect your domain reputation – without the friction.
+            </p>
+
+            <div class="section12-flex">
+                <div class="row12a">
+                    <i class="ri-line-chart-line"></i>
+                    <span>Intuitive analytics</span>
+                </div>
+                <div class="row12b">
+                    <i class="fa-regular fa-envelope"></i>
+                    <span>Full visibility</span>
+                </div>
+                <div class="row12c">
+                    <i class="ri-global-line"></i>
+                    <span>Domain authentication</span>
+                </div>
+            </div>
+
+            <img src="./images/sec12img.png" alt="" width="1000">
+        </section>
+
+        <section id="section13">
+            <h1>Beyond Expectation</h1>
+
+            <p>
+                Resend is driving remarkable developer experiences that enable success
+                <br>
+                stories, empower businesses, and fuel growth across industries and individuals.
+            </p>
+
+            <div id="section13-card-wrapper">
+                <div class="card-container">
+                    <div class="card1">
+                        <span>
+                            "Our partnership with Resend has been a great experience.
+                            They've made sure we can focus on what we do best in building our product
+                            and growing our business."
+                        </span>
+                        <div class="card1-photo-text">
+                            <div class="card1-img">
+                                <img src="./images/card1-photo1.png" alt="" width="40px">
+                                <img src="./images/card1-photo2.png" alt="" width="40px">
+                            </div>
+                            <div class="card1-text">
+                                <h2>Shail Lavingia</h2>
+                                <p>CEO of Gumroad</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card2">
+                        <span>
+                            "Switching over to Resend from SendGrid marked a significant improvement in our email
+                            management.
+                            We started with small test waitlist emails for our iOS and Windows apps. Within 30 mins,
+                            we were done."
+                        </span>
+                        <div class="card2-photo-text">
+                            <div class="card2-img">
+                                <img src="./images/card2-photo1.png" alt="" width="40px">
+                                <img src="./images/card2-photo2.jpg" alt="" width="40px">
+                            </div>
+                            <div class="card2-text">
+                                <h2>Thomas Mann</h2>
+                                <p>Founder & CEO of Raycast</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card3">
+                        <span>
+                            "The simplicity and reliability of Resend allowed our engineers to focus
+                            on building features rather than troubleshooting email infrastructure."
+                        </span>
+                        <div class="card3-photo-text">
+                            <div class="card3-img">
+                                <img src="./images/card3-photo1.png" alt="" width="40px">
+                                <img src="./images/card3-photo2.jpg" alt="" width="40px">
+                            </div>
+                            <div class="card3-text">
+                                <h2>Amadeo Pellicce</h2>
+                                <p>Connectors, Agents and Automations Lead at Replit</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card4">
+                        <span>
+                            "We're a small team with a lot on our plates. Email infrastructure is
+                            something we don't want to think about, and with Resend we don't have to."
+                        </span>
+                        <div class="card4-photo-text">
+                            <div class="card4-img">
+                                <img src="./images/card4-photo1.png" alt="" width="40px">
+                                <img src="./images/card4-photo2.jpg" alt="" width="40px">
+                            </div>
+                            <div class="card4-text">
+                                <h2>Peter Suhm</h2>
+                                <p>Ops at Tailwind</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card5">
+                        <span>
+                            "The best part about taking Resend into production was that there was no friction at all."
+                        </span>
+                        <div class="card5-photo-text">
+                            <div class="card5-img">
+                                <img src="./images/card5-photo1.png" alt="" width="40px">
+                                <img src="./images/card5-photo2.jpg" alt="" width="40px">
+                            </div>
+                            <div class="card5-text">
+                                <h2>Tara Nagar</h2>
+                                <p>Software Engineer at Braintrust</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card6">
+                        <span>
+                            "The flexibility of Resend is what we value most. It allows us to
+                            quickly adapt and refine our email communications as our products evolve."
+                        </span>
+                        <div class="card6-photo-text">
+                            <div class="card6-img">
+                                <img src="./images/card6-photo1.png" alt="" width="40px">
+                                <img src="./images/card6-photo2.jpg" alt="" width="40px">
+                            </div>
+                            <div class="card6-text">
+                                <h2>Glauber Costa</h2>
+                                <p>Founder and CEO at Turso</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card7">
+                        <span>
+                            "Resend is email with simpler APIs, better webhooks, and
+                            best-in-class debugging."
+                        </span>
+                        <div class="card7-photo-text">
+                            <div class="card7-img">
+                                <img src="./images/card7-photo1.png" alt="" width="40px">
+                                <img src="./images/card7-photo2.jpg" alt="" width="40px">
+                            </div>
+                            <div class="card7-text">
+                                <h2>Dan Farrelly</h2>
+                                <p>CTO and Co-Founder of Inngest</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card8">
+                        <span>
+                            "Our team loves Resend. It makes email sending so easy and reliable.
+                            After we switched to Dedicated IPs, our deliverability improved tremendously
+                            and we don't hear complaints about emails landing on spam anymore."
+                        </span>
+                        <div class="card8-photo-text">
+                            <div class="card8-img">
+                                <img src="./images/card8-photo1.jpg" alt="" width="40px">
+                                <img src="./images/card8-photo2.jpg" alt="" width="40px">
+                            </div>
+                            <div class="card8-text">
+                                <h2>Vlad Matsliako</h2>
+                                <p>Co-Founder of Infisical</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card9">
+                        <span>
+                            "As a developer I love the approach that the Resend team is taking.
+                            It's so refreshing. They are also extremely user-centric and helpful in terms of getting you up
+                            and running, sending beautiful emails and delivering."
+                        </span>
+                        <div class="card9-photo-text">
+                            <div class="card9-img">
+                                <img src="./images/card9-photo1.png" alt="" width="40px">
+                                <img src="./images/card9-photo2.png" alt="" width="40px">
+                            </div>
+                            <div class="card9-text">
+                                <h2>Hahnbee Lee</h2>
+                                <p>Co-Founder at Mintlify</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card10">
+                        <span>
+                            "We value tools that feel stable, well thought out, and aligned with
+                            the standards we expect across our stack. Resend meets those expectations.
+                            It lets our team stay focused on building the larger platform rather than getting
+                            pulled into the overhead that typically comes with legacy email infrastructure."
+                        </span>
+                        <div class="card10-photo-text">
+                            <div class="card10-img">
+                                <img src="./images/card10-photo1.png" alt="" width="40px">
+                                <img src="./images/card510photo2.jpg" alt="" width="40px">
+                            </div>
+                            <div class="card10-text">
+                                <h2>Bradley Greenwood</h2>
+                                <p>VP of Engineering at MrBeast</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       <section id="section14">
+    <h1>Email reimagined.<br>Available today.</h1>
+    <a href="">
+        Get started
+        <i class="fa-solid fa-angle-right"></i>
+    </a>
+</section>
+
+ <section id="section15">
+    <h1>Resend</h1>
+ </section>
+
+<footer>
+    <div id="columns">
+        <div class="column1">
+        <p>2261 Market Street #5039 <br> San Francisco, CA 94114</p>
+
+        <div class="icon-row">
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-github-alt"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+
+        <span><i class="fa-regular fa-circle-dot fa-fade" style="color: rgb(94, 227, 117);"></i> All systems operational</span>
+        </div>
+
+    <div class="column2">
+        <p>Features</p>
+       <ul class="column2-links">
+         <a href="">Automations</a>
+        <a href="">Audience</a>
+        <a href="">Broadcast</a>
+        <a href="">Inbound</a>
+        <a href="./pages/template.html">Template</a>
+        <a href="">Webhooks</a>
+        <a href="">Dedicated IPs</a>
+       </ul>
+    </div>
+
+    <div class="column3">
+        <p>Resources</p>
+       <ul class="column3-links">
+         <a href="">Changelog</a>
+        <a href="">Pricing</a>
+        <a href="">Enterprise</a>
+        <a href="">Security</a>
+        <a href="./pages/soc.html">SOC 2</a>
+        <a href="./pages/gdpr.html">GDPR</a>
+        <a href="">Brand</a>
+       </ul>
+    </div>
+
+    <div class="column4">
+        <p>Company</p>
+       <ul class="column4-links">
+         <a href="">About</a>
+        <a href="">Blog</a>
+        <a href="">Careers</a>
+        <a href="./pages/clubs.html">Clubs</a>
+        <a href="">Customers</a>
+        <a href="">Humans</a>
+        <a href="">Philosophy</a>
+       </ul>
+    </div>
+
+    <div class="column5">
+        <p>Help</p>
+       <ul class="column5-links">
+         <a href="">Support</a>
+        <a href="">Status</a>
+        <a href="">Migrate</a>
+        <a href="">Knowledge</a>
+        <a href="">Legal policies</a>
+       </ul>
+    </div>
+
+    <div class="column6">
+        <p>Community</p>
+       <ul class="column6-links">
+         <a href="">Events</a>
+        <a href="">Insiders</a>
+        <a href="">Open source</a>
+        <a href="">Wallpapers</a>
+       </ul>
+    </div>
+    </div>
+</footer>
+</body>
+</html>
