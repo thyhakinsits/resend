@@ -352,6 +352,9 @@ footer {
     display: none;
   }
 
+  .nav-logo {
+    margin-top: 20px;
+  }
   #section1 {
     margin-top: 130px;
     padding-left: 20px;
@@ -359,11 +362,11 @@ footer {
   }
 
   #section1 p {
-    font-size: 17px;
+    font-size: 19px;
   }
 
   #assistant {
-    width: 80%;
+    width: 90%;
   }
 
   #assistant h1 {
@@ -403,7 +406,6 @@ footer {
   #section6,
   #section7 {
     width: 90%;
-    gap: 20px;
   }
 
   #section2 h1,
@@ -422,27 +424,24 @@ footer {
   #section6 p,
   #section7 p {
     font-size: 16px;
-    line-height: 1.6em;
+    line-height: 1.8em;
   }
 
   #section2 ul {
-    padding-left: 20px;
+    padding-left: 30px;
     font-size: 16px;
     line-height: 1.8em;
   }
 
   footer {
     margin-top: 150px;
-    padding: 40px 20px;
+    padding: 40px 30px;
+    height: 150vh;
   }
 
   #columns {
-    flex-direction: column;
+    display: flex;
     flex-wrap: wrap;
     gap: 50px;
-  }
-
-  .column1 span {
-    width: 100%;
   }
 }
