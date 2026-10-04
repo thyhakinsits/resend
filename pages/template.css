@@ -467,6 +467,10 @@ footer {
 
 
 @media (min-width: 320px) and (max-width: 480px) {
+ main {
+  overflow: hidden;
+ }
+
   .nav-list,
   .actions {
     display: none;
@@ -477,22 +481,18 @@ footer {
   }
 
   #section1 {
-    margin-top: 100px;
+    margin-top: 140px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
   }
 
   #section1 h1 {
-    font-size: 36px;
+    font-size: 32px;
+    line-height: 1.2em;
   }
 
-  #section1 p, 
-  #section2 p, 
-  #section3 p, 
-  #section4 p, 
-  #section6 p, 
-  #section7 p {
+  #section1 p {
     font-size: 15px;
   }
 
@@ -500,17 +500,17 @@ footer {
   #section6 {
     flex-direction: column;
     padding-bottom: 130px;
-    padding-left: 20px;
-    padding-right: 20px;
-    gap: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    gap: 30px;
   }
 
   #section3 {
     flex-direction: column-reverse;
     padding-bottom: 130px;
-    padding-left: 20px;
-    padding-right: 20px;
-    gap: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    gap: 30px;
     text-align: center;
   }
 
@@ -519,7 +519,16 @@ footer {
   .section6-text h1,
   #section4 h1,
   #section7 h1 {
-    font-size: 35px;
+    font-size: 28px;
+    line-height: 1.2em;
+  }
+
+  .section2-text p,
+  .section3-text p,
+  .section6-text p,
+  #section4 p,
+  #section7 p {
+    font-size: 15px;
   }
  
   #section2 img,
@@ -529,32 +538,26 @@ footer {
     width: 100%;
   }
 
-  #section4, #section5 {
+  #section4, 
+  #section5 {
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 150px;
+    padding-bottom: 180px;
+    width: 100%;
   }
 
   #section5 h1 {
-    font-size: 18px;
-    line-height: 1.6em;
-  }
-
-  #section7 {
-    padding-left: 20px;
-    padding-right: 20px;
+    font-size: 16px;
+    line-height: 1.5em;
   }
 
   footer {
-    height: 230vh;
-    padding-left: 20px;
-    padding-right: 20px;
-    
+    padding: 40px 30px;
+    height: 150vh;
   }
 
   #columns {
     flex-direction: column;
-    flex-wrap: wrap;
-    gap: 40px;
+    gap: 35px;
   }
 }
