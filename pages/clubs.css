@@ -302,3 +302,122 @@ footer {
   text-align: center;
   color: white;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .nav-list,
+  .actions {
+    display: none;
+  }
+
+  .nav-logo {
+    margin-top: 15px;
+  }
+
+  #section1 {
+    margin-top: 120px;
+}
+
+  #section1 h1 {
+    font-size: 55px;
+  }
+
+  #section1 p {
+    font-size: 20px;
+  }
+
+  #section2 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .row1,
+  .row2 {
+    flex-direction: column;
+  }
+
+  .row1 .box1,
+  .row1 .box2,
+  .row1 .box3,
+  .row2 .box1,
+  .row2 .box2,
+  .row2 .box3 {
+    width: 98%;
+    height: 370px;
+  }
+
+  footer {
+    height: 140vh;
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #columns {
+    flex-wrap: wrap;
+    gap: 40px;
+  } 
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .nav-list {
+    gap: 8px;
+    font-size: 10px;
+  }
+
+  #section1 {
+    margin-top: 140px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #section1 h1 {
+    font-size: 70px;
+  }
+
+  #section1 p {
+    font-size: 20px;
+  }
+
+  #section2 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+ 
+
+  .row1 .box1,
+  .row1 .box2,
+  .row1 .box3,
+  .row2 .box1,
+  .row2 .box2,
+  .row2 .box3 {
+    width: 100%;
+    height: 340px;
+  }
+
+  .row1 .box1 p,
+  .row1 .box2 p,
+  .row1 .box3 p,
+  .row2 .box1 p,
+  .row2 .box2 p,
+  .row2 .box3 p {
+    font-size: 14px;
+    line-height: 1.4em;
+  }
+
+  footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 150px;
+  }
+
+  #columns {
+    flex-wrap: wrap;
+    gap: 110px;
+  }
+}
