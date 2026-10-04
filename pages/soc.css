@@ -451,7 +451,7 @@ footer {
   .nav-list {
     display: flex;
     gap: 18px;
-    font-size: 11px;
+    font-size: 9px;
   }
 
   .actions {
@@ -478,3 +478,4 @@ footer {
     flex-wrap: wrap;
   }
 }
+
