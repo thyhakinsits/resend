@@ -465,11 +465,10 @@ footer {
   color: white;
 }
 
-
 @media (min-width: 320px) and (max-width: 480px) {
- main {
-  overflow: hidden;
- }
+  main {
+    overflow: hidden;
+  }
 
   .nav-list,
   .actions {
@@ -477,11 +476,11 @@ footer {
   }
 
   .nav-logo {
-    margin-top: 10px;
+    margin-top: 15px;
   }
 
   #section1 video {
-    width: 200px;
+    width: 220px;
   }
   #section1 {
     margin-top: 120px;
@@ -533,7 +532,7 @@ footer {
   #section7 p {
     font-size: 15px;
   }
- 
+
   #section2 img,
   #section3 img,
   #section4 img,
@@ -541,7 +540,7 @@ footer {
     width: 100%;
   }
 
-  #section4, 
+  #section4,
   #section5 {
     padding-left: 15px;
     padding-right: 15px;
@@ -560,7 +559,74 @@ footer {
   }
 
   #columns {
-    flex-direction: column;
-    gap: 35px;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nav-list {
+    display: flex;
+    gap: 15px;
+    font-size: 11px;
+  }
+
+  .actions {
+    gap: 15px;
+  }
+
+  #section1 video {
+    width: 220px;
+  }
+
+  #section1 {
+    margin-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #section1 h1 {
+    font-size: 46px;
+  }
+
+  #section2 {
+    padding-left: 70px;
+    gap: 120px;
+  }
+
+  #section3,
+  #section6 {
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 40px;
+  }
+
+  #section2 img,
+  #section3 img,
+  #section4 img,
+  #section6 img {
+    width: 90%;
+  }
+
+  #section4,
+  #section5,
+  #section7 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #section6 {
+    padding-left: 70px;
+    gap: 120px;
+  }
+
+  footer {
+    padding-left: 30px;
+    height: 80vh;
+  }
+
+  #columns {
+    gap: 60px;
+    flex-wrap: wrap;
   }
 }
