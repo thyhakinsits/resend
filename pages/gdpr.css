@@ -382,3 +382,173 @@ footer {
   color: white;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .nav-list,
+  .actions,
+  #section1 h1 {
+    display: none;
+  }
+
+  .nav-logo {
+    margin-top: 20px;
+  }
+
+  #section1 {
+    margin-top: 140px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #section1 p {
+    font-size: 21px;
+  }
+
+  #assistant {
+    width: 90%;
+  }
+
+  #assistant h1 {
+    font-size: 23px;
+  }
+
+  #assistant p {
+    font-size: 14px;
+    line-height: 1.6em;
+  }
+
+  .assistant-row {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+
+  .ai-btn {
+    width: 46%;
+    height: 70px;
+    gap: 8px;
+  }
+
+  .assistant-row h2 {
+    font-size: 15px;
+  }
+
+  .assistant-row i {
+    font-size: 19px;
+  }
+
+  #section2,
+  #section3,
+  #section4,
+  #section5,
+  #section6,
+  #section7,
+  #section8,
+  #section9,
+  #section10,
+  #section11,
+  #section12,
+  #section13,
+  #section14,
+  #section15,
+  #section16 {
+    width: 90%;
+  }
+
+  #section2 h1,
+  #section3 h1,
+  #section4 h1,
+  #section5 h1,
+  #section6 h1,
+  #section7 h1,
+  #section8 h1,
+  #section9 h1,
+  #section10 h1,
+  #section11 h1,
+  #section12 h1,
+  #section13 h1,
+  #section14 h1,
+  #section15 h1,
+  #section16 h1 {
+    font-size: 22px;
+  }
+
+  #section2 p,
+  #section3 p,
+  #section4 p,
+  #section5 p,
+  #section6 p,
+  #section7 p,
+  #section8 p,
+  #section9 p,
+  #section10 p,
+  #section11 p,
+  #section12 p,
+  #section13 p,
+  #section14 p,
+  #section15 p,
+  #section16 p {
+    font-size: 16px;
+    line-height: 2em;
+  }
+
+  #section2 ul,
+  #section15 ul {
+    padding-left: 30px;
+    font-size: 16px;
+    line-height: 1.8em;
+  }
+
+  footer {
+    margin-top: 150px;
+    padding: 40px 30px;
+    height: 150vh;
+  }
+
+  #columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nav-list {
+    display: flex;
+    gap: 15px;
+    font-size: 11px;
+  }
+
+  .actions {
+    gap: 15px;
+  }
+
+  #assistant,
+  #section2,
+  #section3,
+  #section4,
+  #section5,
+  #section6,
+  #section7,
+  #section8,
+  #section9,
+  #section10,
+  #section11,
+  #section12,
+  #section13,
+  #section14,
+  #section15,
+  #section16 {
+    width: 90%;
+  }
+
+  footer {
+    height: 55vh;
+    padding: 50px 40px;
+  }
+
+  #columns {
+    gap: 60px;
+    flex-wrap: wrap;
+  }
+}

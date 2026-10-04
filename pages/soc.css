@@ -448,10 +448,10 @@ footer {
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-  .nav-list {
+   .nav-list {
     display: flex;
-    gap: 18px;
-    font-size: 9px;
+    gap: 15px;
+    font-size: 11px;
   }
 
   .actions {
